@@ -1,0 +1,132 @@
+#bg-image{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header{
+    position: relative;
+    top: 0;
+    border-bottom: 3px solid lightgrey;
+    background: whitesmoke;
+}
+
+#name{
+    background-color: rgb(4, 152, 250);
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 2% 2%;
+}
+
+.vl {
+    border-left: 6px solid green;
+    width: 1%;
+}
+
+#name_links{
+    width: 960px;
+    background-color: green;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#about_link{
+    float: right;
+    padding: 1%;
+    margin: 2.2% .5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 152, 250);
+}
+
+#portfolio_link{
+    float: right;
+    padding: 1%;
+    margin: 2.2% .5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 152, 250);
+}
+
+#contact_link{
+    float: right;
+    padding: 1% 0 1% 1%;
+    margin: 2.2% 0 2.2% .5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 152, 250);
+}
+
+
+#main_content{
+    background: whitesmoke;
+    width: 960px;
+    margin: 2% auto;
+    border: 1px solid lightgrey;
+}
+
+
+article{
+    overflow:auto;
+    width: 95%;
+    margin: 2% auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 2%;
+    color: grey; 
+}
+
+#p1{
+    margin-top: 0;
+}
+
+h1{
+    margin: 2.5% 2.5%;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(4, 152, 250);
+    font-weight: bold;
+}
+
+hr{
+    width: 95%;
+    border: 2px solid lightgrey;
+}
+
+#profile_pic{
+    width: 15%;
+    float: left;
+    margin: 0 2.5% 0 0;
+}
+
+#honda{
+    width: 15%;
+    float: right;
+    margin: 1% 0 0 1.5%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: darkgrey;
+    border-top: 8px solid rgb(4, 152, 250);
+    text-align: center;
+    padding: 3% 0 1%;
+}
