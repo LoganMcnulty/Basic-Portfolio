@@ -16,8 +16,6 @@ body{
 }
 
 header{
-    position: relative;
-    top: 0;
     border-bottom: 3px solid lightgrey;
     background: whitesmoke;
 }
@@ -32,50 +30,46 @@ header{
     padding: 2% 2%;
 }
 
-.vl {
-    border-left: 6px solid green;
-    width: 1%;
-}
-
 #name_links{
     width: 960px;
-    background-color: green;
     margin: 0 auto;
     overflow: auto;
 }
 
-#about_link{
+a:link {
+    text-decoration:none;
+    color:darkgrey;
+    font-weight: bold;
+}
+
+a:hover {
+    background: rgb(4, 152, 250);
+    text-decoration:none;
+    color:darkgrey;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration:none;
+    color:darkgrey;
+    font-weight: bold;
+}
+
+#about_port_contact{
+    color: darkgrey;
     float: right;
     padding: 1%;
-    margin: 2.2% .5%;
+    margin: 2.2% 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(4, 152, 250);
 }
-
-#portfolio_link{
-    float: right;
-    padding: 1%;
-    margin: 2.2% .5%;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(4, 152, 250);
-}
-
-#contact_link{
-    float: right;
-    padding: 1% 0 1% 1%;
-    margin: 2.2% 0 2.2% .5%;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(4, 152, 250);
-}
-
 
 #main_content{
     background: whitesmoke;
     width: 960px;
     margin: 2% auto;
     border: 1px solid lightgrey;
+    overflow:auto;
 }
-
 
 article{
     overflow:auto;
@@ -96,11 +90,19 @@ p{
 }
 
 h1{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 2.5% 2.5%;
     font-size: 30px;
     line-height: 40px;
     color: rgb(4, 152, 250);
     font-weight: bold;
+}
+
+h2{
+margin: 2% auto 2%;
+color: darkgrey;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 hr{
@@ -120,8 +122,57 @@ hr{
     margin: 1% 0 0 1.5%;
 }
 
+#entries{
+    margin-top:0;
+
+}
+
+#contact_name{
+    padding: 1% 0 1% 1%;
+    border: 1px solid darkgrey;
+    margin-top: 1%;
+}
+
+#contact_email{
+    padding: 1% 0 1% 1%;
+    border: 1px solid darkgrey;
+    margin-top: 1%;
+}
+
+#message{
+    padding: 1% 0 10% 1%;
+    border: 1px solid darkgrey;
+    margin-top: 1%;
+}
+
+#submit{
+    background: rgb(4, 152, 250);
+    padding: 1% 3%;
+}
+
+#portfolio_contents{
+    overflow:auto;
+    background: pink;
+    margin: 2.5% 2.5%;
+    width:50%;
+}
+
+#projects{
+    float: left;
+    margin: 3% 4% 3% 0;
+    background: red;
+    width: 200px;
+    height: 150px;
+}
+
+#scroll{
+    height: 500px;
+    width:1px;
+}
+
 footer{
-    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
